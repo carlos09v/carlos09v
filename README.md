@@ -23,8 +23,9 @@
 
 <h2>Contact 📱</h2>
 <p align="left">
-<a href="https://linkedin.com/in/carlos09v" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="carlos09v" height="40" width="70" /></a>
- <a href="https://github.com/carlos09v" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="carlos09v" height="40" width="70" /></a>
+<a href="https://linkedin.com/in/carlos09v" target="blank"><img src="https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" style="max-width:100%;"></a>
+ <a href="https://github.com/carlos09v" target="blank"><img src="https://camo.githubusercontent.com/4c51da250cdef5906bb8a72701595eaa4fb9b78422e87fe83321a30d51c84c06/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6769746875622d2532333130303030302e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465266c696e6b3d6d61696c746f3a68747470733a2f2f6769746875622e636f6d2f746574657573417261756a6f" data-canonical-src="https://img.shields.io/badge/github-%23100000.svg?&amp;style=for-the-badge&amp;logo=github&amp;logoColor=white&amp" style="max-width:100%;"></a>
+ <a href="mailto: carlos09v@gmail.com" target="blank"><img src="https://camo.githubusercontent.com/30397c9df98ac1da26a8cf343965637687573f2f0e80884121290aaab40c1b38/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d476d61696c2d2532334541343333353f7374796c653d666f722d7468652d6261646765266c6f676f3d676d61696c266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/-Gmail-%23EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" style="max-width:100%;"></a>
 </p>
  
 <!--<h2>Total de visitas no perfil 🤔</h2>
