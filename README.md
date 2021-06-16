@@ -2,10 +2,11 @@
 **carlos09v/carlos09v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.--!>
 
 <h1>Hi there 👋</h1>
-<p><strong>Abstract</strong>
+<p><strong>About me</strong>
  <ul>
-  <li>👨‍🎓 Começando estudos em Engenharia de Software.</li>
-  <li>:black_heart: Interesse: Python, JavaScript, Django, Html, CSS.</li>
+  <li>😃 I´m a person who likes to program and develop applications. I´m 18.</li>
+  <li>👨‍🎓 Starting studies in Software Engineering.</li>
+  <li>:purple_heart: Technologies: Python, JavaScript, Html, CSS.</li>
 </ul>
 <p/>
 
