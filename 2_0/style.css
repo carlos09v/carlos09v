@@ -1,0 +1,133 @@
+/* colors -
+#4AA50F
+#B3E580
+#00082F - black
+#4263EB - blue
+#364FC7
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* variáveis */
+    --bg-color: #EDF2FF;
+    --text-color: #00082F;
+    --primary-color: #4263EB;
+    --primary-color-dark: #364FC7;
+}
+
+body.dark-blue {
+    --bg-color: #00082F;
+    --text-color: white;
+}
+
+body.pink {
+    --bg-color: #FFF0F6;
+    --text-color: #1F000B;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
+}
+
+body.dark-pink {
+    --text-color: #FFF0F6;
+    --bg-color: #1F000B;
+    --primary-color: #A61E4D;
+    --primary-color-dark: #D6336C;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+
+#usarname {
+    font-family: 'Roboto Mono', monospace;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+}
+
+img {
+    width: 100%;
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 3.7px;
+    border: var(--primary-color) solid 4px;
+}
+
+ul {
+    list-style: none;
+    margin:  48px 0;
+}
+
+ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color); /* hex: 0 - F */
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    margin-bottom: 16px;
+    border-radius: 6px;
+
+    transition: background 400ms;
+}
+
+/* pseudo-class */
+ul li a:hover {
+    background-color: var(--primary-color-dark);
+}
+
+footer {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    
+    transition: opacity 400ms;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+footer a {
+    color: var(--text-color);
+}
+
+/*
+button {
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 20px;
+    border: #EDF2FF;
+}
+*/
