@@ -5,7 +5,7 @@
 <p><strong>About me</strong>
  <ul>
   <li>😃 I´m a person who likes to program and develop applications. I´m 19.</li>
-  <li>👨‍🎓 Starting studies in Computer Science.</li>
+  <li>👨‍🎓 Starting studies in System Analysis and Development.</li>
   <li>:purple_heart: Technologies: Python, JavaScript, Html, CSS.</li>
 </ul>
 <p/>
