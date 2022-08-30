@@ -4,7 +4,7 @@
 <h1>Hi there 👋</h1>
 <p><strong>About me</strong>
  <ul>
-  <li>😃 I´m a person who likes to program and develop applications. I´m 19.</li>
+  <li>😃 I´m a person that likes to program and develop applications. I´m 19.</li>
   <li>👨‍🎓 Starting studies in System Analysis and Development.</li>
   <li>🔒 And Software Engineer (locked)</li>
   <li>:purple_heart: Technologies: Python, JavaScript, Html, CSS.</li>
