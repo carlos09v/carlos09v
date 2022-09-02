@@ -151,7 +151,7 @@ input[type="checkbox"] {
 
 .change {
     position: absolute;
-    margin: 1.3rem;
+    margin-left: 2rem;
     width: 32px;
 }
 
@@ -173,3 +173,51 @@ input[type="checkbox"] {
 }
 
 /* Colors Mode */
+nav {
+    position: absolute;
+    right: 0;
+}
+
+nav > ul {
+    margin: 0 2rem;
+}
+
+nav > ul > li {
+    padding: 1rem;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+nav > ul > li .color {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px;
+    border: 4px solid white;
+
+    pointer-events: none;
+}
+
+.selected {
+    outline: 3px solid lightblue;
+}
+
+#green .color {
+    background-color: #3ddc84;
+}
+
+#dark-green .color {
+    background-color: #1a5c37;
+}
+
+#pink .color {
+    background-color: #D6336C;
+}
+
+#dark-pink .color {
+    background-color: #A61E4D;
+}
