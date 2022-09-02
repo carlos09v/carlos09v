@@ -21,19 +21,19 @@ html {
     --primary-color-dark: #364FC7;
 }
 
-body.dark-blue {
+.dark {
     --bg-color: #00082F;
     --text-color: white;
 }
 
-body.green {
+.green {
     --bg-color: #f0fff4;
     --text-color: #1F000B;
     --primary-color: #2fa866;
     --primary-color-dark: #1a5c37;
 }
 
-body.dark-green {
+.dark-green {
     --bg-color: #042914;
     --text-color: #FFF0F6;
     --primary-color: #2fa866;
@@ -41,14 +41,14 @@ body.dark-green {
 
 }
 
-body.pink {
+.pink {
     --bg-color: #FFF0F6;
     --text-color: #1F000B;
     --primary-color: #D6336C;
     --primary-color-dark: #A61E4D;
 }
 
-body.dark-pink {
+.dark-pink {
     --bg-color: #1F000B;
     --text-color: #FFF0F6;
     --primary-color: #A61E4D;
@@ -63,6 +63,8 @@ body {
     background-color: var(--bg-color);
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
+
+    transition: .3s;
 }
 
 #usarname {
@@ -81,7 +83,7 @@ h1 {
 .container {
     text-align: center;
     width: 300px;
-    margin: 60px auto;
+    margin: 65px auto;
 }
 
 img {
@@ -138,11 +140,36 @@ footer a {
     color: var(--text-color);
 }
 
-/*
-button {
-    border-radius: 50%;
-    font-size: 30px;
-    margin: 20px;
-    border: #EDF2FF;
+/* Dark Mode */
+.bi-moon {
+    display: none;
 }
-*/
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.change {
+    position: absolute;
+    margin: 1.3rem;
+    width: 32px;
+}
+
+.change:hover {
+    opacity: .8;
+}
+
+.bi {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.dark .bi-sun {
+    display: none;
+}
+
+.dark .bi-moon {
+    display: block;
+}
+
+/* Colors Mode */
