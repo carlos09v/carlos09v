@@ -176,6 +176,10 @@ input[type="checkbox"] {
 nav {
     position: absolute;
     right: 0;
+
+    padding: .5rem;
+    border-left: 2px solid #364FC7;
+    border-radius: 1rem;
 }
 
 nav > ul {
@@ -201,6 +205,11 @@ nav > ul > li .color {
     cursor: pointer;
 }
 
+nav ul p {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 .selected {
     outline: 2px solid #43a1ff;
 }
@@ -219,4 +228,15 @@ nav > ul > li .color {
 
 #dark-pink .color {
     background-color: #A61E4D;
+}
+
+
+@media screen and (max-width: 750px) {
+    nav {
+        display: none;
+    }
+
+    .change {
+        margin-left: 1.5rem;
+    }
 }

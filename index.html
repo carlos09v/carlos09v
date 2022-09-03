@@ -25,6 +25,7 @@
 
     <nav>
         <ul>
+            <p>Escolha o Tema:</p>
             <li id="green">
                 <span class="color"></span>
                 <span class="description">Green</span>
@@ -74,21 +75,15 @@
     <script>
         const changeThemeBtn = document.querySelector('.change')
 
+        const green = document.getElementById('green')
+        const darkGreen = document.getElementById('dark-green')
+        const pink = document.getElementById('pink')
+        const darkPink = document.getElementById('dark-pink')
+
         // Toggle dark mode
         const toogleDarkMode = () => {
             document.body.classList.toggle('dark')
         }
-
-        // Load light or dark mode
-        const loadTheme = () => {
-            const darkMode = localStorage.getItem('dark')
-
-            if(darkMode){
-                toogleDarkMode()
-            }
-        }
-
-        loadTheme()
 
         changeThemeBtn.addEventListener('change', () => {
             toogleDarkMode()
@@ -100,6 +95,89 @@
                 localStorage.setItem('dark', 1)
             }
         })
+
+
+        // Colors Theme
+        const toggleGreenMode = () => {
+            document.body.classList.toggle('green')
+        }
+
+        const toogleDarkGreenMode = () => {
+            document.body.classList.toggle('dark-green')
+        }
+
+        const tooglePinkMode = () => {
+            document.body.classList.toggle('pink')
+        }
+
+        const toogleDarkPinkMode = () => {
+            document.body.classList.toggle('dark-pink')
+        }
+
+        green.addEventListener('change', () => {
+            toggleGreenMode()
+
+            // Save or remove color Theme
+            localStorage.removeItem('green')
+
+            if(document.body.classList.contains('green')){
+                localStorage.setItem('green', 1)
+            }
+        })
+
+        darkGreen.addEventListener('change', () => {
+            toogleDarkGreenMode()
+
+            localStorage.removeItem('dark-green')
+
+            if(document.body.classList.contains('dark-green')){
+                localStorage.setItem('dark-green', 1)
+            }
+        })
+
+        pink.addEventListener('change', () => {
+            tooglePinkMode()
+
+            localStorage.removeItem('pink')
+
+            if(document.body.classList.contains('pink')){
+                localStorage.setItem('pink', 1)
+            }
+        })
+
+        darkPink.addEventListener('change', () => {
+            toogleDarkPinkMode()
+
+            localStorage.removeItem('dark-pink')
+
+            if(document.body.classList.contains('dark-pink')){
+                localStorage.setItem('dark-pink', 1)
+            }
+        })
+        
+
+        // Load light or dark mode AND colors mode
+        const loadTheme = () => {
+            const darkMode = localStorage.getItem('dark'),
+            green = localStorage.getItem('green'),
+            darkGreen = localStorage.getItem('dark-green'),
+            pink = localStorage.getItem('pink'),
+            darkPink = localStorage.getItem('dark-pink')
+
+            if(darkMode){
+                toogleDarkMode()
+            }else if(green) {
+                toggleGreenMode()
+            }else if(darkGreen) {
+                toogleDarkGreenMode()
+            }else if(pink) {
+                tooglePinkMode()
+            }else if (darkPink) {
+                toogleDarkPinkMode()
+            }
+        }
+
+        loadTheme()
     </script>
     
 </body>
