@@ -80,12 +80,27 @@
         const pink = document.getElementById('pink').childNodes[1]
         const darkPink = document.getElementById('dark-pink').childNodes[1]
 
+
+        // Reset Colors
+        const resetColors = () => {
+            if(document.body.classList.contains('green')){
+                document.body.classList.remove('green')
+            }else if (document.body.classList.contains('dark-green')) {
+                document.body.classList.remove('dark-green')
+            }else if (document.body.classList.contains('pink')) {
+                document.body.classList.remove('pink')
+            }else if (document.body.classList.contains('dark-pink')) {
+                document.body.classList.remove('dark-pink')
+            }
+        }
+
         // Toggle dark mode
         const toogleDarkMode = () => {
             document.body.classList.toggle('dark')
         }
 
-        changeThemeBtn.addEventListener('change', () => {
+        changeThemeBtn.addEventListener('click', () => {
+            resetColors()
             toogleDarkMode()
 
             // Save or remove dark mode
