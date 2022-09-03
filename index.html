@@ -151,42 +151,21 @@
         green.addEventListener('click', () => {
             addGreenMode()
 
-            // Save or remove color Theme
-            localStorage.removeItem('green')
-
-            if(document.body.classList.contains('green')){
-                localStorage.setItem('green', 1)
-            }
         })
 
         darkGreen.addEventListener('click', () => {
             addDarkGreenMode()
 
-            localStorage.removeItem('dark-green')
-
-            if(document.body.classList.contains('dark-green')){
-                localStorage.setItem('dark-green', 1)
-            }
         })
 
         pink.addEventListener('click', () => {
             addPinkMode()
 
-            localStorage.removeItem('pink')
-
-            if(document.body.classList.contains('pink')){
-                localStorage.setItem('pink', 1)
-            }
         })
 
         darkPink.addEventListener('click', () => {
             addDarkPinkMode()
 
-            localStorage.removeItem('dark-pink')
-
-            if(document.body.classList.contains('dark-pink')){
-                localStorage.setItem('dark-pink', 1)
-            }
         })
         
 
@@ -200,14 +179,6 @@
 
             if(darkMode){
                 toogleDarkMode()
-            }else if(green) {
-                toggleGreenMode()
-            }else if(darkGreen) {
-                toogleDarkGreenMode()
-            }else if(pink) {
-                tooglePinkMode()
-            }else if (darkPink) {
-                toogleDarkPinkMode()
             }
         }
 
