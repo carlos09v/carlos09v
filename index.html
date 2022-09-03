@@ -103,40 +103,48 @@
         const toggleGreenMode = () => {
             document.body.classList.toggle('green')
 
-            if(colors.classList.contains('selected')){
-                colors.classList.remove('selected')
-            }
+            colors.forEach(a => {
+                if(a.classList.contains('selected')){
+                    a.classList.remove('selected')
+                }
+            })
             green.classList.add('selected')
         }
 
         const toogleDarkGreenMode = () => {
             document.body.classList.toggle('dark-green')
 
-            if(colors.classList.contains('selected')){
-                colors.classList.remove('selected')
-            }
+            colors.forEach(a => {
+                if(a.classList.contains('selected')){
+                    a.classList.remove('selected')
+                }
+            })
             darkGreen.classList.add('selected')
         }
 
         const tooglePinkMode = () => {
             document.body.classList.toggle('pink')
 
-            if(colors.classList.contains('selected')){
-                colors.classList.remove('selected')
-            }
+            colors.forEach(a => {
+                if(a.classList.contains('selected')){
+                    a.classList.remove('selected')
+                }
+            })
             pink.classList.add('selected')
         }
 
         const toogleDarkPinkMode = () => {
             document.body.classList.toggle('dark-pink')
 
-            if(colors.classList.contains('selected')){
-                colors.classList.remove('selected')
-            }
+            colors.forEach(a => {
+                if(a.classList.contains('selected')){
+                    a.classList.remove('selected')
+                }
+            })
             darkPink.classList.add('selected')
         }
 
-        green.addEventListener('change', () => {
+        green.addEventListener('click', () => {
             toggleGreenMode()
 
             // Save or remove color Theme
@@ -147,7 +155,7 @@
             }
         })
 
-        darkGreen.addEventListener('change', () => {
+        darkGreen.addEventListener('click', () => {
             toogleDarkGreenMode()
 
             localStorage.removeItem('dark-green')
@@ -157,7 +165,7 @@
             }
         })
 
-        pink.addEventListener('change', () => {
+        pink.addEventListener('click', () => {
             tooglePinkMode()
 
             localStorage.removeItem('pink')
@@ -167,7 +175,7 @@
             }
         })
 
-        darkPink.addEventListener('change', () => {
+        darkPink.addEventListener('click', () => {
             toogleDarkPinkMode()
 
             localStorage.removeItem('dark-pink')
