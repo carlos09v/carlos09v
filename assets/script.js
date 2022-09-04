@@ -17,6 +17,12 @@ const resetColors = () => {
     }else if (document.body.classList.contains('dark-pink')) {
         document.body.classList.remove('dark-pink')
     }
+
+    colors.forEach(a => {
+        if(a.classList.contains('selected')){
+            a.classList.remove('selected')
+        }
+    })
 }
 
 // Toggle dark mode
