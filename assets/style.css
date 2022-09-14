@@ -96,6 +96,12 @@ img.avatar {
     height: 150px;
     padding: 3.7px;
     border: var(--primary-color) solid 4px;
+
+    transition: transform .3s;
+}
+
+img.avatar:hover {
+    transform: scale(1.1);
 }
 
 ul {
