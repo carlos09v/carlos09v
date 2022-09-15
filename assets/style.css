@@ -86,6 +86,10 @@ h1 {
     margin: 65px auto;
 }
 
+i {
+    font-size: 28px;
+}
+
 img {
     width: 100%;
 }
