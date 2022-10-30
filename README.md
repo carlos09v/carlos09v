@@ -3,7 +3,6 @@
 
 <div align="center">
   <h1>Hi there 👋 | Opa, blz?</h1>
-  <i>Quando pensar em desistir, lembre do motivo de ter começado essa luta ! Força guerreiro(a) ...</i>
   <p>😃 I´m a person who likes to program and develop applications. I´m 19.</p>
   <p>👨‍🎓 Starting studies in System Analysis and Development.</p>
   <p>🔒 And Software Engineer (locked)</p>
@@ -51,7 +50,9 @@
   </a>
   <a href="mailto: carlos09v@gmail.com" target="blank">
   <img src="https://img.shields.io/badge/-Gmail-%23EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white">
-  </a>
+  </a><br><br>
+  
+  <i>Quando pensar em desistir, lembre do motivo de ter começado essa luta ! Força guerreiro(a) ...</i>
 </div>
  
 <!--
