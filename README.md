@@ -2,7 +2,7 @@
 **carlos09v/carlos09v** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.--!>
 
 <div align="center">
-  <h1>Hi there 👋 | Opa, blz?</h1>
+  <h1>Hi there 👋</h1>
   <p>😃 I´m a person who likes to program and develop applications. I´m 19.</p>
   <p>👨‍🎓 Starting studies in System Analysis and Development.</p>
   <p>🔒 And Software Engineer (locked)</p>
@@ -23,6 +23,9 @@
   </a>
   <a href="https://www.python.org" target="_blank"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="30"> 
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank"> 
+    <img alt="ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="30"/> 
