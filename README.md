@@ -3,10 +3,10 @@
 
 <div align="center">
   <h1>Hi there 👋</h1>
-  <p>😃 I´m a person who likes to program and develop applications. I´m 19.</p>
+  <p>😃 I´m a person who likes to program and develop applications. I´m 20.</p>
   <p>👨‍🎓 Starting studies in System Analysis and Development.</p>
   <p>🔒 And Software Engineer (locked)</p>
-  <p>:purple_heart: Technologies: React.js, Python, JavaScript, Html, CSS.</p>
+  <p>:purple_heart: Technologies: React.js - TypeScript - JavaScript-HTML-CSS - Python.</p>
 </div>
 
 <!-- GitHub Stats --!>
